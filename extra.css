@@ -1,0 +1,8 @@
+:root {
+  --md-text-font: "Inter Tight" !important;
+  --md-code-font: "JetBrains Mono" !important;
+}
+* .md-typeset code {
+      font-feature-settings: "liga" on, "calt" on;
+    /* font-variant-ligatures: discretionary-ligatures !important; */
+}
